@@ -3,9 +3,154 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Gallery</title>
   </head>
   <body>
-    <p>Gallery</p>
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">Portofolio</div>
+        <ul class="nav-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/gallery.html" class="active">Gallery</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="gallery-hero">
+        <div class="container">
+          <h1 class="page-title">Gallery Project</h1>
+          <p class="page-subtitle">
+            Koleksi project dan karya yang telah saya kerjakan
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery-content">
+        <div class="container">
+          <div class="gallery-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <div class="image-placeholder">🌐</div>
+              </div>
+              <div class="project-info">
+                <h3>E-Commerce Website</h3>
+                <p>
+                  Platform e-commerce modern dengan fitur cart, payment gateway,
+                  dan admin dashboard.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">MongoDB</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <div class="image-placeholder">📱</div>
+              </div>
+              <div class="project-info">
+                <h3>Mobile App Landing Page</h3>
+                <p>
+                  Landing page responsif untuk promosi aplikasi mobile dengan
+                  design modern dan animasi smooth.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <div class="image-placeholder">📊</div>
+              </div>
+              <div class="project-info">
+                <h3>Dashboard Analytics</h3>
+                <p>
+                  Dashboard interaktif untuk visualisasi data dengan chart dan
+                  real-time updates.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Vue.js</span>
+                  <span class="tag">Chart.js</span>
+                  <span class="tag">API</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <div class="image-placeholder">🎨</div>
+              </div>
+              <div class="project-info">
+                <h3>Portfolio Website</h3>
+                <p>
+                  Website portfolio untuk creative agency dengan galeri project
+                  dan contact form.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <div class="image-placeholder">🔐</div>
+              </div>
+              <div class="project-info">
+                <h3>Authentication System</h3>
+                <p>
+                  Sistem autentikasi lengkap dengan JWT, email verification, dan
+                  password reset.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Express</span>
+                  <span class="tag">JWT</span>
+                  <span class="tag">PostgreSQL</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <div class="image-placeholder">✍️</div>
+              </div>
+              <div class="project-info">
+                <h3>Blog Platform</h3>
+                <p>
+                  Platform blog dengan rich text editor, kategori, tags, dan
+                  sistem komentar.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Redux</span>
+                  <span class="tag">REST API</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Tatang. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>

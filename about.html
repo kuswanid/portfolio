@@ -3,9 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>About</title>
   </head>
   <body>
-    <p>About</p>
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">Portofolio</div>
+        <ul class="nav-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html" class="active">About</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="about-hero">
+        <div class="container">
+          <h1 class="page-title">Tentang Saya</h1>
+          <p class="page-subtitle">
+            Kenali lebih dekat tentang perjalanan dan pengalaman saya
+          </p>
+        </div>
+      </section>
+
+      <section class="about-content">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-text">
+              <h2>Halo!</h2>
+              <p>
+                Saya adalah seorang web developer yang passionate dalam
+                menciptakan pengalaman digital yang menarik dan fungsional.
+                Dengan pengalaman bertahun-tahun di industri teknologi, saya
+                telah mengerjakan berbagai project mulai dari website company
+                profile hingga aplikasi web kompleks.
+              </p>
+              <p>
+                Saya percaya bahwa design yang baik dan code yang clean adalah
+                kunci untuk membuat produk digital yang sukses. Selalu belajar
+                teknologi baru dan best practices adalah bagian dari rutinitas
+                saya.
+              </p>
+            </div>
+            <div class="about-image">
+              <div class="image-placeholder">
+                <span>👨‍💻</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section">
+        <div class="container">
+          <h2 class="section-title">Teknologi yang Saya Kuasai</h2>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React & Vue.js</li>
+                <li>Responsive Design</li>
+              </ul>
+            </div>
+            <div class="skill-item">
+              <h3>Backend</h3>
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>REST API</li>
+                <li>Database (SQL & NoSQL)</li>
+              </ul>
+            </div>
+            <div class="skill-item">
+              <h3>Tools & Others</h3>
+              <ul>
+                <li>Git & GitHub</li>
+                <li>Figma</li>
+                <li>Vite & Webpack</li>
+                <li>Testing & Debugging</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="container">
+          <h2 class="section-title">Hubungi Saya</h2>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>tatang@kuswandi.dev</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">💼</span>
+              <span>LinkedIn</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">🐙</span>
+              <span>GitHub</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Tatang. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>

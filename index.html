@@ -3,9 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body>
-    <p>Home</p>
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">Portofolio</div>
+        <ul class="nav-menu">
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">Halo, Saya Tatang</h1>
+            <p class="hero-subtitle">
+              Selamat datang di portofolio saya. Saya passionate dalam membuat
+              website dan aplikasi yang user-friendly dan modern.
+            </p>
+            <div class="hero-buttons">
+              <a href="/gallery.html" class="btn btn-primary">Lihat Project</a>
+              <a href="/about.html" class="btn btn-secondary">Tentang Saya</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <h2 class="section-title">Keahlian Saya</h2>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">💻</div>
+              <h3>Web Development</h3>
+              <p>
+                Membuat website responsif dan modern menggunakan teknologi
+                terkini
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🎨</div>
+              <h3>UI/UX Design</h3>
+              <p>Mendesain interface yang menarik dan mudah digunakan</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">⚡</div>
+              <h3>Performance</h3>
+              <p>Optimasi website untuk performa maksimal</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Tatang. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
